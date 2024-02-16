@@ -5,7 +5,7 @@ import SectionTitle from "../Title.jsx";
 
 const Contacto = () => {
   return (
-    <section id='contacto' className='py-20 px-4 md:px-16'>
+    <section id='contacto' className='py-20  '>
       <div className='max-w-screen-xl mx-auto flex flex-wrap justify-between items-center'>
         <div className='w-full md:w-1/2 mb-8 md:mb-0'>
           <div>

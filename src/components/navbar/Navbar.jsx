@@ -86,7 +86,7 @@ const Navbar = () => {
               isMenuOpen ? "flex" : "hidden"
             }`}
           >
-            <ul className='lg:flex gap-20 font-semibold text-lg'>
+            <ul className='lg:flex gap-10 mr-10 font-semibold text-lg'>
               <li className='hover:opacity-80 cursor-pointer'>
                 <Link
                   onClick={closeMenu}
