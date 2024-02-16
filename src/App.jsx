@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='App'>
       <NavBar />
-      <div className='mx-[60px] flex flex-col justify-center a'>
+      <div className='mx-[60px] flex flex-col justify-center'>
         <Inicio />
         <Workflow />
         <Porque />
