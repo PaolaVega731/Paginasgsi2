@@ -13,41 +13,35 @@ const Footer = () => {
                 Nosotros
               </h3>
               <ul className='list-none'>
-                <li>
-                  <FooterLink
-                    url=''
-                    text='Quiénes somos'
-                    className='custom-class'
-                  />
-                </li>
-                <li>
-                  <FooterLink
-                    url=''
-                    text='Clientes y proyectos'
-                    className='custom-class'
-                  />
-                </li>
-                <li>
-                  <FooterLink
-                    url=''
-                    text='Sistema de calidad'
-                    className='custom-class'
-                  />
-                </li>
-                <li>
-                  <FooterLink
-                    url=''
-                    text='Políticas de Privacidad'
-                    className='custom-class'
-                  />
-                </li>
-                <li>
-                  <FooterLink
-                    url=''
-                    text='Covid-19'
-                    className='custom-class mb-16'
-                  />
-                </li>
+                <FooterLink
+                  url=''
+                  text='Quiénes somos'
+                  className='custom-class'
+                />
+
+                <FooterLink
+                  url=''
+                  text='Clientes y proyectos'
+                  className='custom-class'
+                />
+
+                <FooterLink
+                  url=''
+                  text='Sistema de calidad'
+                  className='custom-class'
+                />
+
+                <FooterLink
+                  url=''
+                  text='Políticas de Privacidad'
+                  className='custom-class'
+                />
+
+                <FooterLink
+                  url=''
+                  text='Covid-19'
+                  className='custom-class mb-16'
+                />
               </ul>
             </div>
             <div className='w-full md:w-1/4 mb-6'>

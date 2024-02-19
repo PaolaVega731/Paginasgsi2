@@ -1,13 +1,11 @@
 import React from "react";
-// eslint-disable-next-line
-import { Link } from "react-scroll";
 import SectionTitle from "../Title.jsx";
 
 const Contacto = () => {
   return (
-    <section id='contacto' className='py-20  '>
+    <section id='contacto' className='py-20 px-4 md:px-16'>
       <div className='max-w-screen-xl mx-auto flex flex-wrap justify-between items-center'>
-        <div className='w-full md:w-1/2 mb-8 md:mb-0'>
+        <div className='w-full md:w-1/2 mb-8 md:mb-0 ml-[-55px]'>
           <div>
             <SectionTitle text={"Habla con un experto"} />
             <p
@@ -39,7 +37,7 @@ const Contacto = () => {
           <img
             src='/Vectores/VectorContacto.png'
             alt='Edificios con seguridad'
-            className='max-w-full h-auto md:max-w-[501px] md:max-h-[437px]'
+            className='w-full max-w-[2px] h-auto md:max-w-[501px] md:max-h-[437px]'
           />
         </div>
       </div>

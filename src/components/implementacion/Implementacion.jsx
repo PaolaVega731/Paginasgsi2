@@ -1,6 +1,5 @@
 import React from "react";
 // eslint-disable-next-line
-import { Link } from "react-scroll";
 import SectionTitle from "../Title.jsx";
 import HoverComponent from "../HoverInfo.jsx";
 
@@ -19,17 +18,19 @@ const Implementacion = () => {
           children={
             "Al iniciar la evaluación, analizamos las necesidades, identificamos activos críticos, evaluamos riesgos y cumplimos requisitos legales"
           }
-          positions='left-[90px] -top-8 2xl:-top-10 2xl:left-[180px]'
+          positions=' lg:left-[150px] lg:-top-6 2xl:-top-10 2xl:left-[180px]'
           positionP='mb-10'
           sizeP={false}
+          className='cursor-pointer'
         ></HoverComponent>
         <HoverComponent
           titulo={"Registro de Activos y Evaluación de Riesgos"}
           children={
             "Establecemos un registro de activos, evaluamos riesgos para identificar y abordar posibles amenazas y vulnerabilidades"
           }
-          positions='2xl:right-32 -top-6 sm:right-16'
+          positions='lg:right-[120px] 2xl:right-32 -top-6 sm:right-16'
           sizeP={false}
+          className='cursor-pointer'
         ></HoverComponent>
         <HoverComponent
           titulo={"Desarrollo de Políticas de Seguridad"}
@@ -37,6 +38,7 @@ const Implementacion = () => {
             "Establecemos normas y recomendaciones esenciales para proteger la información dentro de la organización."
           }
           positions='top-96 ml-14'
+          className='cursor-pointer'
         ></HoverComponent>
         <HoverComponent
           titulo={"Documentación de Procesos"}
@@ -46,6 +48,7 @@ const Implementacion = () => {
           positions='-top-10 ml-[120px]'
           positionP='mb-10'
           sizeP={true}
+          className='cursor-pointer'
         ></HoverComponent>
 
         <HoverComponent
@@ -56,15 +59,17 @@ const Implementacion = () => {
           positions='top-[364px] right-[80px] 2xl:right-[170px]'
           positionP='mt-20'
           sizeP={true}
+          className='cursor-pointer'
         ></HoverComponent>
         <HoverComponent
           titulo={"Soporte de Implementación"}
           children={
             "Proporcionamos asistencia en la implementación de los documentos y recomendaciones suministrados, ofreciendo formación y soporte continuo a lo largo del proceso de implementación."
           }
-          positions='top-[360px] left-[80px] 2xl:left-[170px] '
+          positions='lg:top-[370px] lg:left-[140px] 2xl:left-[170px] '
           positionP='mt-20'
           sizeP={true}
+          className='cursor-pointer'
         ></HoverComponent>
       </div>
     </section>

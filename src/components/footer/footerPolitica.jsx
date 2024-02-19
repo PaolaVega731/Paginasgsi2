@@ -9,7 +9,7 @@ const FooterPoliticas = () => {
       <ul className='flex gap-2'>
         <FooterLink
           text='2024 - Koff & Guerrero Consultants S.A. - '
-          className='whitespace-nowrap items-end '
+          className='whitespace-nowrap items-end  '
         />
         <FooterLink
           url={"/"}
