@@ -17,12 +17,12 @@ const HoverServicio = ({
       setIsMobile(window.innerWidth <= 480);
     };
 
-    handleResize(); // Llamamos a la función para inicializar el estado
+    handleResize();
 
-    window.addEventListener("resize", handleResize); // Suscripción al evento resize
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize); // Desuscripción del evento resize
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 

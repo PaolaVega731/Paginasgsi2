@@ -9,6 +9,17 @@ body {
     color: #FFFFFF;
 }
 
+html,
+:host {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.overflow-x-clip {
+    overflow-x: hidden;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;700&display=swap');
 

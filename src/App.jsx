@@ -1,3 +1,4 @@
+import "./index.css";
 import Inicio from "./components/inicio/Inicio.jsx";
 import NavBar from "./components/navbar/Navbar.jsx";
 import Implementacion from "./components/implementacion/Implementacion.jsx";

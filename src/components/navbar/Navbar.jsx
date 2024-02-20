@@ -24,6 +24,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   useEffect(() => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 900);
@@ -39,6 +40,12 @@ const Navbar = () => {
 
   const closeMenu = () => {
     setIsMenuOpen(false);
+  };
+
+  const handleNavLinkClick = () => {
+    if (isMobile) {
+      closeMenu();
+    }
   };
 
   return (
@@ -91,75 +98,73 @@ const Navbar = () => {
               isMenuOpen ? "flex" : "hidden"
             }`}
           >
-            <div
-              className={`lg:flex lg:items-center ${
-                isMenuOpen ? "flex" : "hidden"
-              }`}
-            >
-              <ul className='lg:flex gap-10 mr-10 font-semibold text-lg'>
-                <li className='hover:opacity-80 cursor-pointer'>
-                  <Link
-                    onClick={closeMenu}
-                    activeClass='active'
-                    to='inicio'
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Inicio
-                  </Link>
-                </li>
-                <li className='hover:opacity-80 cursor-pointer'>
-                  <Link
-                    activeClass='active'
-                    to={isMobile ? "workflowMobile" : "workflow"}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Workflow
-                  </Link>
-                </li>
-                <li className='hover:opacity-80 cursor-pointer'>
-                  <Link
-                    activeClass='active'
-                    to={isMobile ? "porqueMobile" : "por-que"}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    ¿Por qué?
-                  </Link>
-                </li>
-                <li className='hover:opacity-80 cursor-pointer'>
-                  <Link
-                    activeClass='active'
-                    to={isMobile ? "implementacionMobile" : "implementacion"}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Implementación
-                  </Link>
-                </li>
-                <li className='hover:opacity-80 cursor-pointer'>
-                  <Link
-                    activeClass='active'
-                    to={isMobile ? "contactoMobile" : "contacto"}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Contacto
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            <ul className='lg:flex gap-10 mr-10 font-semibold text-lg'>
+              <li className='hover:opacity-80 cursor-pointer'>
+                <Link
+                  onClick={handleNavLinkClick}
+                  activeClass='active'
+                  to='inicio'
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Inicio
+                </Link>
+              </li>
+              <li className='hover:opacity-80 cursor-pointer'>
+                <Link
+                  onClick={handleNavLinkClick}
+                  activeClass='active'
+                  to={isMobile ? "workflowMobile" : "workflow"}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Workflow
+                </Link>
+              </li>
+              <li className='hover:opacity-80 cursor-pointer'>
+                <Link
+                  onClick={handleNavLinkClick}
+                  activeClass='active'
+                  to={isMobile ? "porqueMobile" : "por-que"}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  ¿Por qué?
+                </Link>
+              </li>
+              <li className='hover:opacity-80 cursor-pointer'>
+                <Link
+                  onClick={handleNavLinkClick}
+                  activeClass='active'
+                  to={isMobile ? "implementacionMobile" : "implementacion"}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Implementación
+                </Link>
+              </li>
+              <li className='hover:opacity-80 cursor-pointer'>
+                <Link
+                  onClick={handleNavLinkClick}
+                  activeClass='active'
+                  to={isMobile ? "contactoMobile" : "contacto"}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Contacto
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

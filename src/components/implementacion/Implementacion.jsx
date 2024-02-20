@@ -18,7 +18,7 @@ const Implementacion = () => {
           children={
             "Al iniciar la evaluación, analizamos las necesidades, identificamos activos críticos, evaluamos riesgos y cumplimos requisitos legales"
           }
-          positions=' lg:left-[150px] lg:-top-6 2xl:-top-10 2xl:left-[180px]'
+          positions=' lg:left-[150px] lg:-top-6 2xl:-top-10 2xl:left-40'
           positionP='mb-10'
           sizeP={false}
           className='cursor-pointer'
@@ -56,7 +56,7 @@ const Implementacion = () => {
           children={
             "Desarrollamos procedimientos detallados para poner en práctica controles de seguridad específicos, como control de acceso, manejo de contraseñas, gestión de incidentes, etc."
           }
-          positions='top-[364px] right-[80px] 2xl:right-[170px]'
+          positions='top-[364px] right-[80px] 2xl:right-40'
           positionP='mt-20'
           sizeP={true}
           className='cursor-pointer'
@@ -66,7 +66,7 @@ const Implementacion = () => {
           children={
             "Proporcionamos asistencia en la implementación de los documentos y recomendaciones suministrados, ofreciendo formación y soporte continuo a lo largo del proceso de implementación."
           }
-          positions='lg:top-[370px] lg:left-[140px] 2xl:left-[170px] '
+          positions='lg:top-[370px] lg:left-[140px] 2xl:left-40 '
           positionP='mt-20'
           sizeP={true}
           className='cursor-pointer'

@@ -28,7 +28,7 @@ const PorqueMobile = () => {
           <div className='relative '>
             <img
               src='./vectores/personas.png'
-              className='w-14 absolute left-10  '
+              className='w-14 absolute left-10'
               alt=''
             />
             <MobileServiceItem
