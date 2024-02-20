@@ -18,7 +18,7 @@ const Implementacion = () => {
           children={
             "Al iniciar la evaluación, analizamos las necesidades, identificamos activos críticos, evaluamos riesgos y cumplimos requisitos legales"
           }
-          positions=' lg:left-[150px] lg:-top-6 2xl:-top-10 2xl:left-40'
+          positions=' lg:left-[150px] lg:-top-6 2xl:-top-10 2xl:left-44'
           positionP='mb-10'
           sizeP={false}
           className='cursor-pointer'
@@ -28,7 +28,7 @@ const Implementacion = () => {
           children={
             "Establecemos un registro de activos, evaluamos riesgos para identificar y abordar posibles amenazas y vulnerabilidades"
           }
-          positions='lg:right-[120px] 2xl:right-32 -top-6 sm:right-16'
+          positions='lg:right-[120px] lg:-top-8 2xl:right-32 2x1:top-10 sm:right-16'
           sizeP={false}
           className='cursor-pointer'
         ></HoverComponent>
@@ -45,7 +45,7 @@ const Implementacion = () => {
           children={
             "Elaboración de documentación que detalla los procesos de seguridad informática, incluyendo la evaluación de riesgos, gestión de cambios, auditorías internas, etc."
           }
-          positions='-top-10 ml-[120px]'
+          positions='lg:-top-10 2x1:top-10 lg:ml-[120px]'
           positionP='mb-10'
           sizeP={true}
           className='cursor-pointer'
@@ -56,7 +56,7 @@ const Implementacion = () => {
           children={
             "Desarrollamos procedimientos detallados para poner en práctica controles de seguridad específicos, como control de acceso, manejo de contraseñas, gestión de incidentes, etc."
           }
-          positions='top-[364px] right-[80px] 2xl:right-40'
+          positions='lg:top-[364px] lg:right-[80px] 2xl:right-40'
           positionP='mt-20'
           sizeP={true}
           className='cursor-pointer'

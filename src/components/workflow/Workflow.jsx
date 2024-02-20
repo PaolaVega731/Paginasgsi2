@@ -15,7 +15,7 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/ProcesosCriticos.png"}
           titulo={"Identificación de Procesos Críticos"}
-          positions='lg:left-20 2xl:left-24'
+          positions='lg:left-20 2xl:left-26'
           positionP='w-60'
           style={{ cursor: "pointer" }}
         >
@@ -26,7 +26,7 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/DefinicionControlesSeguridad.png"}
           titulo={"Definición de Controles de Seguridad"}
-          positions='lg:-bottom-48 lg:left-40 2xl:-bottom-36 2xl:left-56'
+          positions='lg:-bottom-48 lg:left-40 2xl:-bottom-38 2xl:left-56'
           titulop='bottom-[80px]'
           positionP='w-60'
           style={{ cursor: "pointer" }}
@@ -38,7 +38,7 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/DesarrolloProceResp.png"}
           titulo={"Desarrollo de Procedimientos de Respuesta a Incidentes"}
-          positions='lg:-bottom-80 2xl:-bottom-72 '
+          positions='lg:-bottom-80 2xl:-bottom-74 '
           titulop='lg:bottom-[70px]'
           positionP='w-60'
           style={{ cursor: "pointer" }}
@@ -49,7 +49,7 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/CapacitacionConcienciación.png"}
           titulo={"Capacitación y Concienciación del Personal "}
-          positions='lg:-bottom-48 lg:right-40 2xl:-bottom-40 2xl:right-56'
+          positions='lg:-bottom-48 lg:right-40 2xl:-bottom-42 2xl:right-56'
           titulop='lg:bottom-[60px]'
           positionP='w-60'
           imgSize='w-72 h-72'
@@ -62,7 +62,7 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/EvolucionMejoraContinua.png"}
           titulo={"Evaluación y Mejora Continua"}
-          positions='lg:right-20 2xl:right-24'
+          positions='lg:right-20 2xl:right-26'
           positionP='w-60'
           style={{ cursor: "pointer" }}
         >

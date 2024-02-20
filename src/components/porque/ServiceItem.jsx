@@ -7,9 +7,9 @@ const ServiceItem = ({ title, description, position }) => {
       style={{ width: "19%", height: "12%" }}
     >
       <div className='flex justify-center items-center text-center'>
-        <h1 className='text-xl 2xl:text-2xl font-bold text-white'>{title}</h1>
+        <h1 className='text-xl 2xl:text-xl font-bold text-white'>{title}</h1>
       </div>
-      <p className='text-sm 2xl:text-base text-white w-30 text-justify'>
+      <p className='lg:text-sm 2xl:text-sm text-white w-30 text-justify'>
         {description}
       </p>
     </div>

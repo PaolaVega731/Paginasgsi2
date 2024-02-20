@@ -52,7 +52,7 @@ const Porque = () => {
             <ServiceItem
               title='Cumplimiento normativo y Estándares'
               description='Poseemos conocimiento en normativas como ISO 27001 y 9001, así como leyes locales, garantizando documentos alineados con requisitos legales y de cumplimiento.'
-              position='lg:bottom-[28%] lg:left-[16%] 2xl:bottom-70 2xl:left-70'
+              position='lg:bottom-[28%] lg:left-[16.5%] 2xl:bottom-70 2xl:left-70 '
             />
             <ServiceItem
               title='Ahorro de tiempo'
