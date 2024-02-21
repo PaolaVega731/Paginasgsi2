@@ -15,22 +15,27 @@ const Contacto = () => {
               Contáctanos para saber más sobre nuestros servicios, nuestros
               productos y nuestra forma de ver los proyectos.
             </p>
-            <button
-              className='bg-[#9747FF] hover:bg-[#7F2FBC] active:bg-[#5B1E80] disabled:bg-[#CCCCCC] text-white font-bold py-2 px-4 rounded border-solid border border-purple-700 shadow-lg'
-              style={{
-                width: "203px",
-                height: "61px",
-                top: "20px",
-                left: "20px",
-                boxShadow:
-                  "0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px -4px 10px rgba(255, 255, 255, 0.5)",
-                borderRadius: "30px",
-                fontSize: "20px",
-              }}
-              disabled={false}
+            <a
+              href='https://www.koffguerrero.com/es/Contacto'
+              className='block'
             >
-              Contáctanos
-            </button>
+              <button
+                className='bg-[#9747FF] hover:bg-[#7F2FBC] active:bg-[#5B1E80] disabled:bg-[#CCCCCC] text-white font-bold py-2 px-4 rounded border-solid border border-purple-700 shadow-lg'
+                style={{
+                  width: "203px",
+                  height: "61px",
+                  top: "20px",
+                  left: "20px",
+                  boxShadow:
+                    "0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px -4px 10px rgba(255, 255, 255, 0.5)",
+                  borderRadius: "30px",
+                  fontSize: "20px",
+                }}
+                disabled={false}
+              >
+                Contáctanos
+              </button>
+            </a>
           </div>
         </div>
         <div className='w-full md:w-1/2 flex justify-center items-center'>

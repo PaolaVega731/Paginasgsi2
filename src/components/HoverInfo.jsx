@@ -15,7 +15,7 @@ const HoverComponent = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {!isHovered && <span className={`text-xl  w-[200px] `}>{titulo}</span>}
+      {!isHovered && <span className={`text-xl  w-[200px]`}>{titulo}</span>}
       {isHovered && (
         <p className={`text-sm w-[200px] ${positionP}`}>{children}</p>
       )}

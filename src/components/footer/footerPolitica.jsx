@@ -12,7 +12,7 @@ const FooterPoliticas = () => {
           className='whitespace-nowrap items-end  '
         />
         <FooterLink
-          url={"/"}
+          url={"https://www.koffguerrero.com/es/nosotros/privacy"}
           text='Politicas de Privacidad'
           className='text-[#7E0B68] whitespace-nowrap'
         />

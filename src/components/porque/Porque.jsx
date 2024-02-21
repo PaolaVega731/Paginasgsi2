@@ -7,7 +7,10 @@ const Porque = () => {
   const isMobile = window.innerWidth < 768;
 
   return (
-    <section id='por-que' className='flex flex-col justify-center'>
+    <section
+      id='por-que'
+      className='flex flex-col justify-center overflow-hidden'
+    >
       <SectionTitle text={"¿Por qué el Servicio?"} className='-mb-20' />
       <div className='relative -mx-[5%]'>
         <img
@@ -52,32 +55,32 @@ const Porque = () => {
             <ServiceItem
               title='Cumplimiento normativo y Estándares'
               description='Poseemos conocimiento en normativas como ISO 27001 y 9001, así como leyes locales, garantizando documentos alineados con requisitos legales y de cumplimiento.'
-              position='lg:bottom-[28%] lg:left-[16.5%] 2xl:bottom-70 2xl:left-70 '
+              position=' lg:left-[16.5%] 2xl:bottom-70 2xl:left-70 xl:bottom-[29%] xl:left-[16%] '
             />
             <ServiceItem
               title='Ahorro de tiempo'
               description='Delega estos procesos complejos a profesionales certificados en la norma.'
-              position='lg:bottom-[33%] lg:right-[18%] 2xl:bottom-120 2xl:right-65'
+              position='lg:bottom-[33%] lg:right-[18%] 2xl:bottom-[120] 2xl:right-65 xl:bottom-[32%] xl:left-[63%]'
             />
             <ServiceItem
               title='Personalización y Adaptabilidad'
               description='Personalizar la documentación según las necesidades específicas de tu organización.'
-              position='lg:top-[36%] lg:left-[41%] 2xl:top-50 2xl:left-35'
+              position='lg:top-[36%] lg:left-[41%] 2xl:top-50 2xl:left-35 xl:top-[36%]  xl:left-[41%]'
             />
             <ServiceItem
               title='Acompañamiento'
               description='Asesoramos y orientamos durante el proceso a cómo implementar el contenido de la documentación eficazmente en el SGSI.'
-              position='lg:top-[22%] lg:right-[17%] 2xl:top-72 2xl:right-34'
+              position='lg:top-[21%] lg:right-[17%] 2xl:top-[22%] '
             />
             <ServiceItem
               title='Experiencia Especializada'
               description='Disponemos de la certificación ISO 27001:2022 para asegurar una implementación eficaz de un SGSI.'
-              position='lg:top-[16%] lg:left-[20%] 2xl:top-45 2xl:left-75'
+              position='lg:top-[16%] lg:left-[20%] 2xl:top-45 2xl:left-75 xl:top-[16%] xl:left-[20%]'
             />
             <ServiceItem
               title='Capacitación y Soporte'
               description='Proporcionamos capacitación y apoyo continuo para facilitar la comprensión y aplicación efectiva del SGSI en la organización.'
-              position='lg:bottom-[7%] lg:right-[42%] 2xl:bottom-18 2xl:right-30'
+              position='lg:bottom-[7%] lg:right-[42%] 2xl:bottom-18 2xl:right-30 xl:bottom-[8%] xl:right-[42%]'
             />
           </>
         )}
@@ -86,7 +89,7 @@ const Porque = () => {
           className={
             isMobile
               ? "w-32 h-auto absolute left-12 top-60"
-              : "w-60 h-60 absolute lg:left-20 lg:top-80 2xl:top-80 2xl:left-16"
+              : "w-60 h-60 absolute lg:left-20 lg:top-80 2xl:top-[20%] 2xl:left-[5%]"
           }
           src='./vectores/Personas.png'
           alt='Tres personas dandose la mano'
@@ -95,7 +98,7 @@ const Porque = () => {
           className={
             isMobile
               ? "w-40 h-auto absolute top-[870px] right-[60px]"
-              : "w-60 h-60 absolute lg:top-[820px] lg:right-[80px] 2xl:top-120 2xl:right-100"
+              : "w-60 h-60 absolute lg:top-[820px] lg:right-[5%] 2xl:top-[35%] 2xl:right-100"
           }
           src='./vectores/CarpetaConPersonas.png'
           alt='Personas en capacitación'

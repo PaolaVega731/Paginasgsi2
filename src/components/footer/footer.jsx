@@ -14,31 +14,31 @@ const Footer = () => {
               </h3>
               <ul className='list-none'>
                 <FooterLink
-                  url=''
+                  url='https://www.koffguerrero.com/es/nosotros/index'
                   text='Quiénes somos'
                   className='custom-class'
                 />
 
                 <FooterLink
-                  url=''
+                  url='https://www.koffguerrero.com/es/nosotros/clients'
                   text='Clientes y proyectos'
                   className='custom-class'
                 />
 
                 <FooterLink
-                  url=''
+                  url='https://www.koffguerrero.com/es/nosotros/quality'
                   text='Sistema de calidad'
                   className='custom-class'
                 />
 
                 <FooterLink
-                  url=''
+                  url='https://www.koffguerrero.com/es/nosotros/privacy'
                   text='Políticas de Privacidad'
                   className='custom-class'
                 />
 
                 <FooterLink
-                  url=''
+                  url='https://www.koffguerrero.com/es/inicio/covid'
                   text='Covid-19'
                   className='custom-class mb-16'
                 />
@@ -50,16 +50,20 @@ const Footer = () => {
               </h3>
               <ul className='list-none'>
                 <FooterLink
-                  url=''
+                  url='https://www.koffguerrero.com/es/servicios/index'
                   text='Nuestros Servicios'
                   className='custom-class'
                 />
                 <FooterLink
-                  url=''
+                  url='https://www.koffguerrero.com/es/productos/index'
                   text='Nuestros Productos'
                   className='custom-class'
                 />
-                <FooterLink url='' text='ValidRisk' className='custom-class' />
+                <FooterLink
+                  url='https://www.koffguerrero.com/es/productos/validrisk'
+                  text='ValidRisk'
+                  className='custom-class'
+                />
               </ul>
             </div>
 
@@ -69,12 +73,12 @@ const Footer = () => {
               </h3>
               <ul className='list-none'>
                 <FooterLink
-                  url=''
+                  url='https://koffguerrero.sharepoint.com/sites/SGC'
                   text='Sitio ISO 9001:2015'
                   className='custom-class'
                 />
                 <FooterLink
-                  url=''
+                  url='https://koffguerrero.sharepoint.com/sites/SGSI'
                   text='Sitio ISO 27001:2022'
                   className='custom-class'
                 />
@@ -102,7 +106,7 @@ const Footer = () => {
             <ul className='flex'>
               <li>
                 <a
-                  href='https://linkedin.com'
+                  href='https://www.linkedin.com/company/kgc-sa/'
                   className='flex items-center text-light colors:#7e0b68 hover:opacity-70'
                 >
                   <img
@@ -113,7 +117,7 @@ const Footer = () => {
                   LinkedIn
                 </a>
                 <a
-                  href='https://youtube.com'
+                  href='https://www.youtube.com/channel/UCAW4cRU5vl5FcGnTT4t8-Ng'
                   className='flex items-center text-light colors:#7e0b68 hover:opacity-70'
                 >
                   <img
