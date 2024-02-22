@@ -28,7 +28,7 @@ const HoverServicio = ({
 
   return (
     <div
-      className={`${positions} w-80 h-80 absolute text-white text-xs flex justify-center items-center text-center textInfo cursor-pointer`}
+      className={`${positions} w-80 h-80   absolute text-white text-xs flex justify-center items-center text-center textInfo cursor-pointer`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

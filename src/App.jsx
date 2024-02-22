@@ -14,27 +14,27 @@ import FooterMobile from "./components/footer/FooterMobile.jsx";
 
 function App() {
   return (
-    <div className='App '>
+    <div className="App ">
       <NavBar />
-      <div className='mx-[20px] sm:mx-[60px] flex flex-col justify-center '>
+      <div className="mx-[20px] sm:mx-[60px] flex flex-col justify-center ">
         <Inicio />
-        <div className='hidden sm:block'>
+        <div className="hidden lg:block">
           <Workflow />
           <Porque />
           <Implementacion />
           <Contacto />
         </div>
       </div>
-      <div className='mx-0 h-auto mb-20 sm:hidden'>
+      <div className="mx-0 h-auto mb-20 lg:hidden">
         <SectionMobileWorkflow />
         <PorqueMobile />
         <CarouselMobile />
       </div>
-      <div className='  sm:hidden'>
+      <div className="pt-20 lg:hidden">
         <ContactoMobile />
         <FooterMobile />
       </div>
-      <div className='hidden sm:block'>
+      <div className="hidden lg:block">
         <Footer />
       </div>
     </div>

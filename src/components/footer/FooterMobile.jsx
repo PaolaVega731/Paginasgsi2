@@ -6,26 +6,26 @@ const FooterMobile = () => {
       <div className='flex flex-col gap-2'>
         <h4 className='font-bold text-xl'>Nosotros</h4>
         <ul className='opacity-75 text-sm'>
-          <FooterLink text={"Quiénes somos"} />
-          <FooterLink text={"Clientes y proyectos"} />
-          <FooterLink text={"Sistema de Calidad"} />
-          <FooterLink text={"Politicas de Privacidad"} />
-          <FooterLink text={"Covid-19"} />
+          <FooterLink text={"Quiénes somos"} url={'https://www.koffguerrero.com/es/nosotros/index'} />
+          <FooterLink text={"Clientes y proyectos"} url={'https://www.koffguerrero.com/es/nosotros/clients'}/>
+          <FooterLink text={"Sistema de Calidad"} url={'https://www.koffguerrero.com/es/nosotros/quality'}/>
+          <FooterLink text={"Politicas de Privacidad"}url={'https://www.koffguerrero.com/es/nosotros/privacy'} />
+          <FooterLink text={"Covid-19"}url={'https://www.koffguerrero.com/es/inicio/covid'} />
         </ul>
       </div>
       <div className='flex flex-col gap-2'>
         <h4 className='font-bold text-xl'>Productos y Servicios</h4>
         <ul className='opacity-75 text-sm'>
-          <FooterLink text={"Nuestros Servicios"} />
-          <FooterLink text={"Nuestros Productos"} />
-          <FooterLink text={"ValidRisk"} />
+          <FooterLink text={"Nuestros Servicios"} url={'https://www.koffguerrero.com/es/servicios/index'} />
+          <FooterLink text={"Nuestros Productos"}url={'https://www.koffguerrero.com/es/productos/index'} />
+          <FooterLink text={"ValidRisk"} url={'https://www.koffguerrero.com/es/productos/validrisk'}/>
         </ul>
       </div>
       <div className='flex flex-col gap-2'>
         <h4 className='font-bold text-xl'>Intranet KGC</h4>
         <ul className='opacity-75 text-sm'>
-          <FooterLink text={"Sitio ISO 9001.2015"} />
-          <FooterLink text={"Sitio ISO 27001.2022"} />
+          <FooterLink text={"Sitio ISO 9001.2015"} url={'https://koffguerrero.sharepoint.com/sites/SGC'} />
+          <FooterLink text={"Sitio ISO 27001.2022"} url={'https://koffguerrero.sharepoint.com/sites/SGSI'} />
         </ul>
       </div>
       <div className='flex flex-col gap-4'>
@@ -42,7 +42,7 @@ const FooterMobile = () => {
           <FooterLink text={"Email: contacto@koffguerrero.com"} />
           <div className='flex flex-col gap-0'>
             <div className='flex items-center h-6'>
-              <FooterLink text={"Linkedin"} />
+              <FooterLink text={"Linkedin"} url={'https://www.linkedin.com/company/kgc-sa/'}/>
               <img
                 src='./Vectores/linkedin.png'
                 alt='Linkedin'
@@ -50,7 +50,7 @@ const FooterMobile = () => {
               />
             </div>
             <div className='flex items-center h-6'>
-              <FooterLink text={"Youtube"} />
+              <FooterLink text={"Youtube"} url={'https://www.youtube.com/channel/UCAW4cRU5vl5FcGnTT4t8-Ng'}/>
               <img
                 src='./Vectores/youtube.png'
                 alt='Youtube'

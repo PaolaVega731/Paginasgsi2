@@ -8,15 +8,15 @@ import WorkflowMobile from "./WorkflowMobile.jsx";
 const Workflow = () => {
   const isMobile = window.innerWidth <= 480;
   return (
-    <section id='workflow' className='mb-80 mt-20'>
+    <section id="workflow" className="mb-80 mt-20">
       <SectionTitle text={"Workflow"} />
-      <div className='flex justify-center relative'>
-        <img className='w-96' src='./vectores/candado.png' alt='' />
+      <div className="flex justify-center relative max-w-[1000px] mx-auto ">
+        <img className="w-96" src="./vectores/candado.png" alt="" />
         <HoverServicio
           img={"./vectores/ProcesosCriticos.png"}
           titulo={"Identificación de Procesos Críticos"}
-          positions='lg:left-20 2xl:left-26'
-          positionP='w-60'
+          positions="-left-[4%] "
+          positionP="w-60"
           style={{ cursor: "pointer" }}
         >
           Se realiza un análisis destallado para descubrir para identificar los
@@ -26,9 +26,9 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/DefinicionControlesSeguridad.png"}
           titulo={"Definición de Controles de Seguridad"}
-          positions='lg:-bottom-48 lg:left-40 2xl:-bottom-38 2xl:left-56'
-          titulop='bottom-[80px]'
-          positionP='w-60'
+          positions="left-[4%] -bottom-[50%] "
+          titulop="bottom-[80px]"
+          positionP="w-60"
           style={{ cursor: "pointer" }}
         >
           Establecemos medidas de seguridad específicas para cada proceso
@@ -38,9 +38,9 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/DesarrolloProceResp.png"}
           titulo={"Desarrollo de Procedimientos de Respuesta a Incidentes"}
-          positions='lg:-bottom-80 2xl:-bottom-74 '
-          titulop='lg:bottom-[70px]'
-          positionP='w-60'
+          positions="-bottom-[90%] "
+          titulop="lg:bottom-[70px]"
+          positionP="w-60"
           style={{ cursor: "pointer" }}
         >
           Nos enfocamos en optimizar procedimientos para enfrentar retos de
@@ -49,10 +49,10 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/CapacitacionConcienciación.png"}
           titulo={"Capacitación y Concienciación del Personal "}
-          positions='lg:-bottom-48 lg:right-40 2xl:-bottom-42 2xl:right-56'
-          titulop='lg:bottom-[60px]'
-          positionP='w-60'
-          imgSize='w-72 h-72'
+          positions="right-[4%] -bottom-[50%] "
+          titulop="lg:bottom-[60px]"
+          positionP="w-60"
+          imgSize="w-72 h-72"
           style={{ cursor: "pointer" }}
         >
           Ofrecemos entrenamiento a tu equipo sobre lo curcial que es la
@@ -62,8 +62,8 @@ const Workflow = () => {
         <HoverServicio
           img={"./vectores/EvolucionMejoraContinua.png"}
           titulo={"Evaluación y Mejora Continua"}
-          positions='lg:right-20 2xl:right-26'
-          positionP='w-60'
+          positions="-right-[4%]"
+          positionP="w-60"
           style={{ cursor: "pointer" }}
         >
           Realizamos evaluaciones periódicas para asegurar que los controles de
