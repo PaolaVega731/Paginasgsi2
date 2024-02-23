@@ -21,7 +21,7 @@ const Implementacion = () => {
             }
             positions="-top-[5%] -left-[6%]"
             positionP="mb-10"
-            sizeP={false}
+            sizeOfDiv={false}
             className="cursor-pointer"
           ></HoverComponent>
           <HoverComponent
@@ -29,8 +29,8 @@ const Implementacion = () => {
             children={
               "Establecemos un registro de activos, evaluamos riesgos para identificar y abordar posibles amenazas y vulnerabilidades"
             }
-            positions="-right-[10%] -top-[5%]"
-            sizeP={false}
+            positions="lg:-right-[13%] lg:-top-[3%] xl:-right-[10%]  xl:-top-[7%]"
+            sizeOfDiv={false}
             className="cursor-pointer"
           ></HoverComponent>
           <HoverComponent
@@ -38,7 +38,7 @@ const Implementacion = () => {
             children={
               "Establecemos normas y recomendaciones esenciales para proteger la información dentro de la organización."
             }
-            positions="-bottom-[10%] right-[36%]"
+            positions=" lg:-bottom-[10%] lg:right-[34%] xl:-bottom-[10%] xl:right-[36%]"
             className="cursor-pointer"
           ></HoverComponent>
           <HoverComponent
@@ -46,9 +46,8 @@ const Implementacion = () => {
             children={
               "Elaboración de documentación que detalla los procesos de seguridad informática, incluyendo la evaluación de riesgos, gestión de cambios, auditorías internas, etc."
             }
-            positions="-top-[10%] right-[33%] "
+            positions="lg:right-[31%] lg:-top-[8%] xl:-top-[12%] xl:right-[33%] "
             positionP="mb-10"
-            sizeP={true}
             className="cursor-pointer"
           ></HoverComponent>
 
@@ -57,9 +56,8 @@ const Implementacion = () => {
             children={
               "Desarrollamos procedimientos detallados para poner en práctica controles de seguridad específicos, como control de acceso, manejo de contraseñas, gestión de incidentes, etc."
             }
-            positions="-bottom-[10%] -right-[6%]"
-            positionP="mt-20"
-            sizeP={true}
+            positions="lg:-right-[10.5%]  -bottom-[10%] xl:-right-[6.5%]"
+            positionP="-bottom-[35%]"
             className="cursor-pointer"
           ></HoverComponent>
           <HoverComponent
@@ -67,9 +65,9 @@ const Implementacion = () => {
             children={
               "Proporcionamos asistencia en la implementación de los documentos y recomendaciones suministrados, ofreciendo formación y soporte continuo a lo largo del proceso de implementación."
             }
-            positions="-left-[6%] -bottom-[10%]"
-            positionP="mt-20"
-            sizeP={true}
+            positions="lg:-left-[10%] lg:-bottom-[8%] xl:-left-[6%] xl:-bottom-[10%]"
+            sizeOfDiv={true}
+            positionP={"-bottom-[35%]"}
             className="cursor-pointer"
           ></HoverComponent>
         </div>

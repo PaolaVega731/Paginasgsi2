@@ -30,7 +30,7 @@ const Porque = () => {
             <ServiceItem
               title="Personalización y Adaptabilidad"
               description="Personalizar la documentación según las necesidades específicas de tu organización."
-              position="lg:top-[38%] lg:left-[38%] min-[1433px]:top-[39%] min-[1535px]:top-[37%] "
+              position="lg:top-[38%] lg:left-[38%]   min-[1433px]:top-[39%] min-[1535px]:top-[37%]"
             />
             <ServiceItem
               title="Acompañamiento"

@@ -12,7 +12,7 @@ const WorkflowMobile = ({
       <div className="text-white md:h-52 md:flex  ">
         <div className={`flex ${gap} items-center`}>
           <div
-            className={`relative ${divImgSize} h-40 flex   justify-center items-center  `}
+            className={`relative ${divImgSize} h-40 flex justify-center items-center`}
           >
             <img
               src={urlImg}

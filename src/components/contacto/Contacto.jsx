@@ -3,11 +3,13 @@ import SectionTitle from "../Title.jsx";
 
 const Contacto = () => {
   return (
-    <section id="contacto" className="py-20 px-4">
-      <div className="s mx-auto flex flex-wrap justify-between items-center ">
-        <div className="w-full md:w-1/2 mb-8    ">
+    <section id="contacto" className="py-20 px-4 ">
+      <div className="s mx-auto flex justify-between items-center  ">
+        <div className="w-full mb-8">
           <div className="flex flex-col gap-5 max-w-[700px] text-balance">
-            <SectionTitle text={"Habla con un experto"} />
+            <div className=" ">
+              <SectionTitle text={"Habla con un experto"} />
+            </div>
             <p
               style={{ fontSize: "24px" }}
               className="text-base font-urbanist font-normal leading-[30px] tracking-[2%] mb-8 "
@@ -15,11 +17,7 @@ const Contacto = () => {
               Contáctanos para saber más sobre nuestros servicios, nuestros
               productos y nuestra forma de ver los proyectos.
             </p>
-            <div className="w-auto">
-
-            <a href="https://www.koffguerrero.com/es/Contacto">
             <button
-        
               className="bg-[#9747FF] hover:bg-[#7F2FBC] active:bg-[#5B1E80] disabled:bg-[#CCCCCC] text-white font-bold py-2 px-4 rounded border-solid border border-purple-700 shadow-lg"
               style={{
                 width: "203px",
@@ -33,17 +31,15 @@ const Contacto = () => {
               }}
               disabled={false}
             >
-             Contáctanos
+              Contáctanos
             </button>
-            </a> 
-            </div>
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <img
             src="/Vectores/VectorContacto.png"
             alt="Edificios con seguridad"
-            className="w-full  h-auto md:max-w-[600px] md:max-h-[437px]"
+            className="w-full  h-auto md:max-w-[600px] md:max-h-[437px] lg:h-80 lg:w-96 "
           />
         </div>
       </div>
