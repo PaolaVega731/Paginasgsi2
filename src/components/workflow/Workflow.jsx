@@ -19,7 +19,7 @@ const Workflow = () => {
           positionP="w-60"
           style={{ cursor: "pointer" }}
         >
-          Se realiza un análisis destallado para descubrir para identificar los
+          Se realiza un análisis detallado para descubrir para identificar los
           procesos más importantes de tu negocio, desde las finanzas, recursos
           humanos, operaciones y desarrollo de software.
         </HoverServicio>
