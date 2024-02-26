@@ -13,11 +13,13 @@ const ContactoMobile = () => {
           Contáctanos para saber más sobre nuestros servicios, nuestros
           productos y nuestra forma de ver los proyectos.
         </p>
+        <div>
         <a href="https://www.koffguerrero.com/es/Contacto">
         <button className="bg-[#9747FF] hover:bg-[#7F2FBC] active:bg-[#5B1E80] disabled:bg-[#CCCCCC] text-white font-bold py-2 px-4 rounded-full border-solid border border-purple-700 shadow-lg">
           Contáctanos
         </button>
         </a>
+        </div>
       </div>
       <img
         src="/Vectores/VectorContacto.png"
