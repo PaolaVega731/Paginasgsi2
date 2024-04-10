@@ -6,12 +6,12 @@ const SectionMobileWorkflow = () => {
     <div className='flex relative flex-col gap-10 mt-32' id='workflowMobile'>
       <img
         className='w-40 absolute bottom-20 right-0 -z-10 opacity-40'
-        src='./vectores/candadoMobile.png'
+        src='/vectores/candadoMobile.png'
         alt=''
       />
       <SectionTitle className='mx-[20px]' text={"WorkFlow"} />
       <WorkflowMobile
-        urlImg={"./vectores/ProcesosCriticos.png"}
+        urlImg={"/vectores/ProcesosCriticos.png"}
         divImgSize='w-[38%]'
         gap='gap-3'
         titulo={"Identificación de Procesos Críticos"}
@@ -21,7 +21,7 @@ const SectionMobileWorkflow = () => {
         humanos, operaciones y desarrollo de software.
       </WorkflowMobile>
       <WorkflowMobile
-        urlImg={"./vectores/DefinicionControlesSeguridad.png"}
+        urlImg={"/vectores/DefinicionControlesSeguridad.png"}
         titulo={"Definición de Controles de Seguridad"}
       >
         Establecemos medidas de seguridad específicas para cada proceso crítico
@@ -29,7 +29,7 @@ const SectionMobileWorkflow = () => {
         segregación de funciones, etc.
       </WorkflowMobile>
       <WorkflowMobile
-        urlImg={"./vectores/DesarrolloProceResp.png"}
+        urlImg={"/vectores/DesarrolloProceResp.png"}
         titulo={"Desarrollo de Procedimientos de Respuesta a Incidentes"}
         topTitulo='top-[50%]'
       >
@@ -37,7 +37,7 @@ const SectionMobileWorkflow = () => {
         seguridad informática, buscando reacciones más eficaces y eficientes.
       </WorkflowMobile>
       <WorkflowMobile
-        urlImg={"./vectores/CapacitacionConcienciación.png"}
+        urlImg={"/vectores/CapacitacionConcienciación.png"}
         titulo={"Capacitación y Concienciación del Personal"}
         sizeImg='scale-100'
       >
@@ -46,7 +46,7 @@ const SectionMobileWorkflow = () => {
         detectar intentos de phishing etc.
       </WorkflowMobile>
       <WorkflowMobile
-        urlImg={"./vectores/EvolucionMejoraContinua.png"}
+        urlImg={"/vectores/EvolucionMejoraContinua.png"}
         titulo={"Evaluación y Mejora Continua"}
       >
         Realizamos evaluaciones periódicas para asegurar que los controles de

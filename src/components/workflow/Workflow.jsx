@@ -13,7 +13,7 @@ const Workflow = () => {
       <div className="flex justify-center relative max-w-[1000px] mx-auto ">
         <img className="w-96" src="./vectores/candado.png" alt="" />
         <HoverServicio
-          img={"./vectores/ProcesosCriticos.png"}
+          img={"/vectores/ProcesosCriticos.png"}
           titulo={"Identificación de Procesos Críticos"}
           positions="-left-[4%] 2xl:-left-[24%] "
           positionP="w-60"
@@ -24,7 +24,7 @@ const Workflow = () => {
           humanos, operaciones y desarrollo de software.
         </HoverServicio>
         <HoverServicio
-          img={"./vectores/DefinicionControlesSeguridad.png"}
+          img={"/vectores/DefinicionControlesSeguridad.png"}
           titulo={"Definición de Controles de Seguridad"}
           positions="left-[4%] -bottom-[50%] 2xl:-bottom-[70%] 2xl:-left-[12%] "
           titulop="bottom-[80px]"
@@ -36,7 +36,7 @@ const Workflow = () => {
           datos, segregación de funciones, etc.
         </HoverServicio>
         <HoverServicio
-          img={"./vectores/DesarrolloProceResp.png"}
+          img={"/vectores/DesarrolloProceResp.png"}
           titulo={"Desarrollo de Procedimientos de Respuesta a Incidentes"}
           positions="-bottom-[90%] 2xl:-bottom-[110%] "
           titulop="lg:bottom-[70px]"
