@@ -47,7 +47,7 @@ const Workflow = () => {
           seguridad informática, buscando reacciones más eficaces y eficientes.
         </HoverServicio>
         <HoverServicio
-          img={"./vectores/CapacitacionConcienciación.png"}
+          img={"/vectores/CapacitacionConcienciación.png"}
           titulo={"Capacitación y Concienciación del Personal "}
           positions="right-[4%] -bottom-[50%] 2xl:-bottom-[70%] 2xl:-right-[12%] "
           titulop="lg:bottom-[60px]"
@@ -60,7 +60,7 @@ const Workflow = () => {
           seguridad, como detectar intentos de phishing etc.
         </HoverServicio>
         <HoverServicio
-          img={"./vectores/EvolucionMejoraContinua.png"}
+          img={"/vectores/EvolucionMejoraContinua.png"}
           titulo={"Evaluación y Mejora Continua"}
           positions="-right-[4%] 2xl:-right-[24%] "
           positionP="w-60"

@@ -13,7 +13,7 @@ const Porque = () => {
         <div className="relative -mx-[5%] max-w-[1600px]">
           <img
             className="w-full lg:scale-125 lg:mt-20"
-            src={"./vectores/SeccionPorqué.png"}
+            src={"/vectores/SeccionPorqué.png"}
             alt="Imagen con líneas que conectan rectángulos"
           />
           <>
@@ -53,14 +53,14 @@ const Porque = () => {
             className={
               "lg:w-40 lg:h-40  absolute top-[30%] left-[5%] 2xl:h-60 2xl:w-60"
             }
-            src="./vectores/Personas.png"
+            src="/vectores/Personas.png"
             alt="Tres personas dandose la mano"
           />
           <img
             className={
               " lg:w-40 lg:h-40 absolute lg:bottom-[10.5%] right-[6%] 2xl:h-60 2xl:w-60"
             }
-            src="./vectores/CarpetaConPersonas.png"
+            src="/vectores/CarpetaConPersonas.png"
             alt="Personas en capacitación"
           />
         </div>

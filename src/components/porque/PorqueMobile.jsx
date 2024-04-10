@@ -11,7 +11,7 @@ const PorqueMobile = () => {
 
       <div className="w-full relative">
         <img
-          src="./vectores/PorqueMobile.png"
+          src="/vectores/PorqueMobile.png"
           className="w-full relative"
           alt=""
         />
@@ -27,7 +27,7 @@ const PorqueMobile = () => {
           </MobileServiceItem>
           <div className="relative ">
             <img
-              src="./vectores/personas.png"
+              src="/vectores/personas.png"
               className="w-14 sm:w-28 absolute left-[5%] top-[20%]"
               alt=""
             />
@@ -58,7 +58,7 @@ const PorqueMobile = () => {
           </MobileServiceItem>
           <div className="relative">
             <img
-              src="./vectores/CarpetaConPersonas.png"
+              src="/vectores/CarpetaConPersonas.png"
               className="w-20 sm:w-32 absolute -right-[4%] top-[20%] sm:-right-[2%]"
               alt=""
             />
