@@ -110,7 +110,7 @@ const Footer = () => {
                   className='flex items-center text-light colors:#7e0b68 hover:opacity-70'
                 >
                   <img
-                    src='./Vectores/linkedin.png'
+                    src='/linkedin.png'
                     alt='Linkedin'
                     className='h-8  colors:#7e0b68 '
                   />
@@ -121,7 +121,7 @@ const Footer = () => {
                   className='flex items-center text-light colors:#7e0b68 hover:opacity-70'
                 >
                   <img
-                    src='./Vectores/youtube.png'
+                    src='/youtube.png'
                     alt='Youtube'
                     className='h-8   colors:#7e0b68 '
                   />

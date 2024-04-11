@@ -22,7 +22,7 @@ const ContactoMobile = () => {
         </div>
       </div>
       <img
-        src="/Vectores/VectorContacto.png"
+        src="/VectorContacto.png"
         className="absolute   h-52  md:h-64 md:w-80 mt-14 mx-auto md:right-4  md:-bottom-8 right-0 bottom-5 -z-10 opacity-60"
         alt=""
       />

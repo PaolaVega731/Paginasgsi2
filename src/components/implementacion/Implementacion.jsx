@@ -10,7 +10,7 @@ const Implementacion = () => {
       <section id="implementacion" className="my-4 flex justify-center ">
         <div className="mt-20 flex justify-center items-center relative h-[500px] lg:max-w-[800px] xl:max-w-[1200px]   ">
           <img
-            src="/ImagenInicio/Implementación.png"
+            src="/Implementación.png"
             alt="Vector de implementación"
             className="w-[940px] h-[427px] object-contain p-4 "
           />

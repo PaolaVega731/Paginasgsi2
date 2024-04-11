@@ -42,7 +42,7 @@ const Contacto = () => {
         </div>
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <img
-            src="/Vectores/VectorContacto.png"
+            src="/VectorContacto.png"
             alt="Edificios con seguridad"
             className="w-full  h-auto md:max-w-[600px] md:max-h-[437px] lg:h-80 lg:w-96 "
           />

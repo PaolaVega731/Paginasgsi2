@@ -44,7 +44,7 @@ const FooterMobile = () => {
             <div className='flex items-center h-6'>
               <FooterLink text={"Linkedin"} url={'https://www.linkedin.com/company/kgc-sa/'}/>
               <img
-                src='./Vectores/linkedin.png'
+                src='/linkedin.png'
                 alt='Linkedin'
                 className='h-full scale-150 colors:#7e0b68 '
               />
@@ -52,7 +52,7 @@ const FooterMobile = () => {
             <div className='flex items-center h-6'>
               <FooterLink text={"Youtube"} url={'https://www.youtube.com/channel/UCAW4cRU5vl5FcGnTT4t8-Ng'}/>
               <img
-                src='./Vectores/youtube.png'
+                src='/youtube.png'
                 alt='Youtube'
                 className='h-full   scale-150  colors:#7e0b68 '
               />

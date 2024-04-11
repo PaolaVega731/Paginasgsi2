@@ -11,9 +11,9 @@ const Workflow = () => {
     <section id="workflow" className="mb-80 mt-20">
       <SectionTitle text={"Workflow"} />
       <div className="flex justify-center relative max-w-[1000px] mx-auto ">
-        <img className="w-96" src="./vectores/candado.png" alt="" />
+        <img className="w-96" src="/candado.png" alt="" />
         <HoverServicio
-          img={"/vectores/ProcesosCriticos.png"}
+          img={"/ProcesosCriticos.png"}
           titulo={"Identificación de Procesos Críticos"}
           positions="-left-[4%] 2xl:-left-[24%] "
           positionP="w-60"
@@ -24,7 +24,7 @@ const Workflow = () => {
           humanos, operaciones y desarrollo de software.
         </HoverServicio>
         <HoverServicio
-          img={"/vectores/DefinicionControlesSeguridad.png"}
+          img={"/DefinicionControlesSeguridad.png"}
           titulo={"Definición de Controles de Seguridad"}
           positions="left-[4%] -bottom-[50%] 2xl:-bottom-[70%] 2xl:-left-[12%] "
           titulop="bottom-[80px]"
@@ -36,7 +36,7 @@ const Workflow = () => {
           datos, segregación de funciones, etc.
         </HoverServicio>
         <HoverServicio
-          img={"/vectores/DesarrolloProceResp.png"}
+          img={"/DesarrolloProceResp.png"}
           titulo={"Desarrollo de Procedimientos de Respuesta a Incidentes"}
           positions="-bottom-[90%] 2xl:-bottom-[110%] "
           titulop="lg:bottom-[70px]"
@@ -47,7 +47,7 @@ const Workflow = () => {
           seguridad informática, buscando reacciones más eficaces y eficientes.
         </HoverServicio>
         <HoverServicio
-          img={"/vectores/CapacitacionConcienciación.png"}
+          img={"/CapacitacionConcienciación.png"}
           titulo={"Capacitación y Concienciación del Personal "}
           positions="right-[4%] -bottom-[50%] 2xl:-bottom-[70%] 2xl:-right-[12%] "
           titulop="lg:bottom-[60px]"
@@ -60,7 +60,7 @@ const Workflow = () => {
           seguridad, como detectar intentos de phishing etc.
         </HoverServicio>
         <HoverServicio
-          img={"/vectores/EvolucionMejoraContinua.png"}
+          img={"/EvolucionMejoraContinua.png"}
           titulo={"Evaluación y Mejora Continua"}
           positions="-right-[4%] 2xl:-right-[24%] "
           positionP="w-60"

@@ -26,12 +26,12 @@ const Inicio = () => {
 
         <div className="absolute right-[0%] top-[250px] w-48 lg:static -z-10 opacity-60 lg:opacity-100  md:w-[557px] md:h-[534px] overflow-x-clip sm:overflow-visible">
           <img
-            src="/Vectores/Computadora2.png"
+            src="/Computadora2.png"
             alt="Laptop abierta con logo de seguridad"
             className=" md:hidden rounded "
           />
           <img
-            src="/Vectores/Computadora.png"
+            src="/Computadora.png"
             alt="Laptop abierta con logo de seguridad"
             className="hidden md:block w-full h-auto  "
           />

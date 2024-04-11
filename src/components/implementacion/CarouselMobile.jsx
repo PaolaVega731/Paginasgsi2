@@ -7,12 +7,12 @@ import SectionTitle from "../Title";
 const CarouselMobile = () => {
 
   const images = [
-    "./Vectores/Analisis.png",
-    "./Vectores/DesPoliticas.png",
-    "./Vectores/DesProcedimientos.png",
-    "./Vectores/Registros.png",
-    "./Vectores/DocProcesos.png",
-    "./Vectores/Soporte.png",
+    "/Analisis.png",
+    "/DesPoliticas.png",
+    "/DesProcedimientos.png",
+    "/Registros.png",
+    "/DocProcesos.png",
+    "/Soporte.png",
   ];
 
 
