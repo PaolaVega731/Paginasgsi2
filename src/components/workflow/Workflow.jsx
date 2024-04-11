@@ -11,7 +11,7 @@ const Workflow = () => {
     <section id="workflow" className="mb-80 mt-20">
       <SectionTitle text={"Workflow"} />
       <div className="flex justify-center relative max-w-[1000px] mx-auto ">
-        <img className="w-96" src="/candado.png" alt="" />
+        <img className="w-96" src="/Candado.png" alt="" />
         <HoverServicio
           img={"/ProcesosCriticos.png"}
           titulo={"Identificación de Procesos Críticos"}
