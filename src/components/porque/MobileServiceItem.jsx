@@ -13,7 +13,7 @@ const MobileServiceItem = ({
         className={`relative h-28 sm:h-36 md:h-40   top-3 bg-[rgb(2,12,44)] px-8 gap-2 md:w-[70%]  w-[63%] rounded-lg shadow flex flex-col justify-center items-center`}
       >
         <img
-          src={`./vectores/${urlimg}.png`}
+          src={`/${urlimg}.png`}
           className={`w-10 h-10 absolute top-0 ${rlIcon}`}
           alt=""
         />
